@@ -1,8 +1,8 @@
 <div class="container pt-5">
 	<p>
 		Hello 
-		<%=request.getAttribute("lastName")%>,
-		<%=request.getAttribute("firstName")%></p>
+		<%= request.getParameter("lastName") %>,
+		<%=request.getParameter("firstName")%></p>
 	<p>
 		Current Date:
 		<%=new java.util.Date()%>

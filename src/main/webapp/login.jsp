@@ -1,11 +1,4 @@
 <%@ include file="navbar.jsp"%>
-<%
-    // Vérifier si une session existe déjà
-    if (session.getAttribute("loggedInUser") != null) {
-        // Rediriger vers la page affichage.jsp
-        response.sendRedirect("affichage.jsp");
-    }
-%>
 <div class="container pt-2 pb-5 mb-5">
 	<form class="container pt-2 pb-5 mb-5" action="Login" method="post">
 		<fieldset class="container pt-2 pb-5 mb-5">
