@@ -34,13 +34,18 @@
 					<li class="nav-item"><a class="nav-link"
 						href="https://my.dauphine.fr">MyDauphine</a></li>
 					<li class="nav-item"><a class="nav-link"
-						href="<%=request.getContextPath() + "/contact.jsp#howToContainer"%>">Contact Form</a></li>
-						<li class="nav-item"><a class="nav-link"
-						href="<%=request.getContextPath() + "/factorial.jsp"%>">Calculate factorial</a></li>
+						href="<%=request.getContextPath() + "/contact.jsp#howToContainer"%>">Contact
+							Form</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="<%=request.getContextPath() + "/factorial.jsp"%>">Calculate
+							factorial</a></li>
 
 				</ul>
 			</div>
+			<a class="btn btn-secondary  my-sm-3" type="submit" href="login.jsp"
+				role="button">Login</a>
 		</div>
+
 	</nav>
 	<script
 		src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js"></script>
